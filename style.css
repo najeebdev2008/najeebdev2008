@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    height: 570px;
+    width: 370px;
+    border: 2px solid rgb(43, 41, 41);
+    border-radius: 1%;
+    margin-left: 100px;
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 60px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 390px;
+    margin-left: 5px;
+    display: block;
+    position:absolute;
+}
+#p1{
+    position: absolute;
+   margin-bottom: 260px;
+   margin-left: 10px;
+   color: white;
+   font-size: larger;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+}
+#p2{
+    /* position: absolute; */
+   margin-bottom: 205px;
+   margin-left: 10px;
+   color: rgb(216, 216, 33);
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+   font-size: smaller;
+}
+#p3{
+    position: absolute;
+color: white;
+font-family: "Inter", sans-serif;
+font-weight: lighter;
+font-size: small;
+margin-left: 9px;
+margin-bottom: 90px;
+
+
+}
+#box1{
+    height: 36px;
+    width: 250px;
+    color: white;
+    background-color:rgb(63, 58, 58);
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 10px 10px 10px 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: "poppins", sans-serif;
+    font: smaller;
+    position: absolute;
+    flex-grow: 0;
+    flex-grow: 0;
+}
+#box2{
+    height: 36px;
+    width: 300px;
+    color: white;
+    background-color:rgb(63, 58, 58);
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 10px 10px 10px 10px;  
+    margin-top: 100px;
+   display: flex;
+   align-items: center;
+    justify-content: center; 
+    font-family: "poppins", sans-serif;
+    position: absolute;
+    font-size: smaller;
+}
+#box3{
+    height: 36px;
+    width: 300px;
+    color: white;
+    background-color:rgb(63, 58, 58);
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 10px 10px 10px 10px;  
+    margin-top: 200px;
+   display: flex;
+   align-items: center;
+    justify-content: center; 
+    font-family: "poppins", sans-serif;
+    position: absolute;
+    font-size: smaller;
+}
